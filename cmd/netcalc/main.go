@@ -13,8 +13,8 @@ func main() {
 	ipStr := flag.String("ip", "", "set ip")
 	maskStr := flag.String("mask", "", "set mask")
 	cidrNotation := flag.String("cidr", "", "set cidr")
-	hosts := flag.Uint("hostnum", 0, "set hosts number")
-	subnets := flag.Uint("subnetnum", 0, "set subnets number")
+	hosts := flag.Uint("host-num", 0, "set hosts number")
+	subnets := flag.Uint("subnet-num", 0, "set subnets number")
 	flag.Parse()
 
 	// 1. Process the input into an IP and Mask
