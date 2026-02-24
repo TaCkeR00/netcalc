@@ -15,7 +15,7 @@ Instead of relying on heavy string manipulation, netcalc uses underlying bitwise
 
 Ensure you have Go installed on your machine. You can build the executable directly from the source:
 
-`bash
+```bash
 git clone [https://github.com/TaCkeR00/netcalc.git](https://github.com/TaCkeR00/netcalc.git)
 cd netcalc
 go build -o netcalc ./cmd/netcalc
