@@ -10,7 +10,6 @@ Instead of relying on heavy string manipulation, netcalc uses underlying bitwise
 * Bitwise Efficiency: Core logic relies on raw bitwise operators (<<, >>, &, |, ^) for optimal performance.
 * Subnet Plage Generator: Automatically generates a visual table of all available subnet ranges, usable hosts, and broadcast addresses.
 * Class Identification: Automatically identifies traditional IP classes (A, B, C, D, E).
-* Modular Architecture: Clean separation between the CLI interface and the core ipv4 mathematical package.
 
 ## 🚀 Installation
 
